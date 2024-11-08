@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean class="com.SpringCore.SpringCore.Student" name="stud">
+	<property name = "sid">
+		<value>101</value>
+		</property>
+	<property name="sname">
+		<value>Rohan Agarkar</value>
+	</property>
+	<property name="saddress">
+		<value>Shreekunj Heights, Manjalpur, Vadodara</value>
+	</property>
+</bean>
+</beans>
